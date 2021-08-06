@@ -22,6 +22,8 @@ gem 'jwt'
 # seriaization & json_api logic
 gem 'jsonapi.rb'
 
+# Easy activity tracking
+gem 'public_activity', '~> 1.6', '>= 1.6.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
